@@ -1,0 +1,16 @@
+# Specify the theme
+theme = "ayu_dark"
+
+# Key bindings for normal mode
+[keys.normal]
+"F" = ":format"
+
+# Key bindings for insert mode
+[keys.insert]
+"C-s" = [":write", "normal_mode", ":format"]
+
+# Key bindings for select mode
+[keys.select]
+"C-s" = [":write", "normal_mode", ":format"]
+
+
